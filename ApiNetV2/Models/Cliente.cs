@@ -7,9 +7,7 @@ namespace ApiNetV2.Models
 {
     public class ClienteInfo
     {
-
         public readonly IDbDatos LdbDatos;
-
 
         public ClienteInfo(IDbDatos dbDatos)
         {

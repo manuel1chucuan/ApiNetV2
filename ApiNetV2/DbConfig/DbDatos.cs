@@ -6,7 +6,7 @@ namespace ApiNetV2.DbConfig
     {
         SqlConnection GetOpenConnection();
         SqlCommand CreateCommand();
-        string ConnectionString { get; } // Agregar propiedad
+        string ConnectionString { get; }
     }
 
     public class DbDatos : IDbDatos
